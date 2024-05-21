@@ -2,7 +2,7 @@
 
 Since I can't publicly share 99.999% of my code on GitHub, here's a _simple_ Hello World program in C# to show you how _not_ to code.
 
-Realistically, this is a MarkDown project about problem solving with some snippets of C#. It also exposes how bloody silly and frustrating coding can be.
+Realistically, this is a MarkDown project about problem solving with snippets of C#, exposeing how bloody silly and frustrating coding can be.
 
 ![image](/attachments/inconceivable1.gif)
 
