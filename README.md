@@ -1,4 +1,6 @@
-﻿# Hello World
+[![.NET](https://github.com/iPlexor/Hello-GitHub/actions/workflows/dotnet.yml/badge.svg)](https://github.com/iPlexor/Hello-GitHub/actions/workflows/dotnet.yml)
+ 
+ # Hello World
 
 Since I can't publicly share 99.999% of my code on GitHub, here's a _simple_ Hello World program in C# to show you how _not_ to code.
 
