@@ -4,7 +4,7 @@ Since I can't share 99.999% of the code I've worked publicly on GitHub, here's a
 
 Realistically, this is a MarkDown project about problem solving with some snippets of C#. It also exposes how bloody silly and frustrating coding can be.
 
-![image](.\attachments\inconceivable1.gif)
+![image](./attachments/inconceivable1.gif)
 
 Technically its the default project template for a C# Console App, but we can't 💯% test that. A crying shame, because this is ostensibly a 1 line program thanks to Top Level Statements. But the whole thing unravels quickly if you have the audacity to test it.
 
@@ -12,7 +12,7 @@ Technically its the default project template for a C# Console App, but we can't 
 
 ## Starting Template
 
-![image](attachments\consoleapp.png)
+![image](attachments/consoleapp.png)
 
 ## Problem 1: Making it testable
 
