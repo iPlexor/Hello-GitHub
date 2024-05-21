@@ -4,7 +4,7 @@ Since I can't share 99.999% of the code I've worked publicly on GitHub, here's a
 
 Realistically, this is a MarkDown project about problem solving with some snippets of C#. It also exposes how bloody silly and frustrating coding can be.
 
-![image](./attachments/inconceivable1.gif)
+![image](/attachments/inconceivable1.gif)
 
 Technically its the default project template for a C# Console App, but we can't 💯% test that. A crying shame, because this is ostensibly a 1 line program thanks to Top Level Statements. But the whole thing unravels quickly if you have the audacity to test it.
 
@@ -80,7 +80,7 @@ public class HelloWorldTests
 
 Now everything is `public`. _**Inconceivable**_!
 
-![image](attachments\hitchhikers1.gif)
+![image](attachments/hitchhikers1.gif)
 
 We'll fix that later.
 
@@ -118,7 +118,7 @@ Amazing, 💯% code coverage!
 
 `Pro Tip:` If it doesn't generate `coverage.opencover.xml`, you've successfully reproduced my results. Somethings broken and needs fixing. Good luck!
 
-![image](attachments\sparklemotion.gif)
+![image](attachments/sparklemotion.gif)
 
 Congratulations, you're a real Software Engineer now!
 
@@ -158,6 +158,6 @@ Technically, `Main` is the entrypoint of `Program`, so testing it is technically
 
 Of course, all of this is _**inconceviable!**_ for a Hello World app and all of this is _very_ _VERY_ silly.
 
-![image](attachments\inconceivable2.gif)
+![image](attachments/inconceivable2.gif)
 
 If you don't like sillyness, probably don't write code. It's sillyness _all_ the way down!
