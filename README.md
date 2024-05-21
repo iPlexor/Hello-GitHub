@@ -80,7 +80,7 @@ public class HelloWorldTests
 }
 ```
 
-Now everything is `public`. _**Inconceivable**_!
+Great! Now everything is `public`. 🤦‍♂️ _**Inconceivable**_!
 
 ![image](attachments/hitchhikers1.gif)
 
