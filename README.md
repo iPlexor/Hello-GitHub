@@ -1,6 +1,6 @@
 ﻿# Hello World
 
-I can't publicly share 99.999% of the code I've ever worked on. So here's a _simple_ Hello World program in C# to show you how _never_ to write code.
+Since I can't publicly share 99.999% of my code on GitHub, here's a _simple_ Hello World program in C# to show you how _not_ to code.
 
 Realistically, this is a MarkDown project about problem solving with some snippets of C#. It also exposes how bloody silly and frustrating coding can be.
 
@@ -134,7 +134,7 @@ Applying some compiler wizardry 🧙‍♂️ in an `AssemblyInfo.cs`, we specif
 [assembly: InternalsVisibleTo("HelloWorld.Tests")]
 ```
 
-Problem Solved! Adding `AssemblyInfo.cs` has really screwed up our 1-liner now. _**Inconceivable!**_
+Problem Solved! But adding `AssemblyInfo.cs` has really screwed up our 1-liner and dropped the code coverage below 💯%. _**Inconceivable!**_
 
 ## Problem 4: Achieving 100% test coverage
 
