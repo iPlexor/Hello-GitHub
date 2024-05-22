@@ -1,32 +1,35 @@
+using System.Diagnostics;
+using System.Reflection;
+
 namespace HelloWorld.Tests;
 
 public class HelloWorldTests
 {
     [Fact]
-    public void HelloWorld_Prints_HelloWorld()
+    public void HelloWorld_Prints_HelloWorldEx()
     {
         // Arrange
-        var writer = new StringWriter();
-        Console.SetOut(writer);
+        var location = Assembly.GetExecutingAssembly().Location;
+        var baseDir = location.Remove(
+        location.IndexOf(
+            "\\HelloWorld.Tests\\bin\\Debug\\net8.0\\HelloWorld.Tests.dll", StringComparison.InvariantCultureIgnoreCase));
+        var process = new Process
+        {
+            StartInfo = new ProcessStartInfo("dotnet", $"run --project {baseDir}\\HelloWorld\\HelloWorld.csproj")
+            {
+                RedirectStandardOutput = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            }
+        };
 
         // Act
-        Program.Main(default!);
+        process.Start();
+        process.WaitForExit();
+
+        var output = process.StandardOutput.ReadToEnd();
 
         // Assert
-        Assert.Equal("Hello, World!", writer.ToString().Trim());
-    }
-
-    [Fact]
-    public void HelloWorld_Never_Wawaweewah()
-    {
-        // Arrange
-        var writer = new StringWriter();
-        Console.SetOut(writer);
-
-        // Act
-        Program.Main(default!);
-
-        // Assert
-        Assert.NotEqual("Wawaweewah!", writer.ToString().Trim());
+        Assert.Equal("Hello, World!\r\n", output);
     }
 }
